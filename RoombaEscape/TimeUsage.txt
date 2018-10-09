@@ -1,11 +1,11 @@
 1.10. 	11:00 - 13:30 Kentän teko
 	16:00 - 20:45 Roomban liikutusmekaniikka
 2.10.	10:00 - 12:00 Roomban mekaniikkaa
-	14:20 - 14:45 -ll-
+	14:20 - 14:45 -II-
 	16:00 - 19:00 Roomban liikkuminen valimiiksi
-3.10 	10:45 - 11:05 kerättävien bittien tekeminen + mekaaniikat peliin
+3.10. 	10:45 - 11:05 kerättävien bittien tekeminen + mekaaniikat peliin
 	14:05 - 15.25 ovien avaus kun tarpeeksi bittejä on kerätty
-5.10	12:35 - 13:00 koodin korjaus
+5.10.	12:35 - 13:00 koodin korjaus
 	13:45 - 14:15 ovet aukeavat kun kaikki bitit on kerätty
 	15:30 - 15:50 laskee automaattisesti kuinka paljon on bittejä kentällä jäljellä
 	16:15 - 16:40 0 ja 1 bittien mallit
@@ -15,3 +15,11 @@
 	19:15 - 19:25 nuolen teko
 	19:25 - 23:10 nuolen laittaminen roomban ja osoittimen väliin (nuoli pois lineRenderer tilalle)
 	23:10 - 00:05 Materiaalit ja tekstuurit
+6.10.	10:30 - 11:10 -II-
+	11:10 - 11:40 Kerättävien bittien määrä näkyviin
+7.10.	20:40 - 21:00 Roomban teksturointi
+	21:00 - 21:45 Valaistuksen säätö
+8.10. 	09:30 - 12:10 Botin ja kenttäsiirtymisien koodaaminen
+	12:10 - 12:30 Taustamusiikin valinta peliin
+9.10.	10:20 - 10:55 Robotin malli
+	10:55 - 11:10 mallin käyttöönotto ja materiaalit / teksturointi + Buildi

@@ -45,8 +45,6 @@ public class BitsCollecting : MonoBehaviour {
             mesh = mesh0.GetComponent<MeshFilter>().sharedMesh;
         }
 
-        
-        
         //gameObject.GetComponent<MeshFilter>().mesh = mesh;
         GetComponent<MeshFilter>().sharedMesh = mesh;
 

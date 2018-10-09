@@ -15,13 +15,14 @@ public class MouseToWorld : MonoBehaviour {
     //private RoombaController roombaController;
     public float moveMulti = 20.0f;
     
+    
     // Use this for initialization
     void Start () {
         cam = Camera.main;
         rb = character.GetComponent<Rigidbody>();
     }
 
-    void OnGUI()
+   /* void OnGUI()
     {
         
         Event currentEvent = Event.current;
@@ -44,7 +45,7 @@ public class MouseToWorld : MonoBehaviour {
         GUILayout.Label("Mouse position: " + mousePos);
         GUILayout.Label("World position: " + point.ToString("F3"));
         GUILayout.EndArea();
-    }
+    }*/
 
     // Update is called once per frame
     void Update () {
@@ -59,7 +60,7 @@ public class MouseToWorld : MonoBehaviour {
         Debug.DrawRay(character.transform.position,point, Color.red);
 
         dist = Vector3.Distance(rb.transform.position,point);
-        Debug.Log(dist);
+        //Debug.Log(dist);
         
         //what happens when LMB is pressed down
         if (Input.GetMouseButtonDown(0))
@@ -85,7 +86,7 @@ public class MouseToWorld : MonoBehaviour {
             moveDist = minMoveDist;
         }
 
-        roomba.AddForce((mouse.x - roomba.transform.position.x) * moveDist * moveMulti, 0.1f ,(mouse.z - roomba.transform.position.z) * moveDist* moveMulti);
+        roomba.AddForce(1.0f +(mouse.x - roomba.transform.position.x) * moveDist * moveMulti, 0.1f ,1.0f + (mouse.z - roomba.transform.position.z) * moveDist* moveMulti);
         
         //roomba.transform.position = mouse;
     }
